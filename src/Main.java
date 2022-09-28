@@ -47,5 +47,28 @@ public class Main {
         System.out.println(frog);
         frog = frog + 4;
         System.out.println(frog);
+
+        // Задание 6
+        System.out.println("Задание 6");
+        var boxer1Weight = 78.2;
+        var boxer2Weight = 82.7;
+        System.out.println("Общий вес двух бойцов: "+ (boxer1Weight + boxer2Weight) + " кг");
+        System.out.println("Разница между весами бойцов: "+ (boxer2Weight - boxer1Weight) + " кг");
+
+        // Задание 7
+        System.out.println("Задание 7");
+        System.out.println("Разница между весами бойцов (1 способ): "+ (boxer2Weight - boxer1Weight) + " кг");
+        System.out.println("Разница между весами бойцов (2 способ): "+ (boxer2Weight % boxer1Weight) + " кг");
+
+        // Задание 8
+        System.out.println("Задание 8");
+        var totalWorkingHours = 640;
+        var hoursPerDay = 8;
+        var totalEmloyees = totalWorkingHours / hoursPerDay;
+        System.out.println("Всего работников в компании – " + totalEmloyees + " человек");
+
+        totalEmloyees = totalEmloyees + 94;
+        totalWorkingHours = totalEmloyees * hoursPerDay;
+        System.out.println("Если в компании работает " + totalEmloyees + " человека, то всего " + totalWorkingHours +" часов работы может быть поделено между сотрудниками");
     }
 }
